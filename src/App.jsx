@@ -1,8 +1,11 @@
 import React from 'react'
+import Image from './components/Image'
 
 const App = () => {
   return (
-    <div className='bg-red-200'>Tahsin Al Tabib</div>
+    <div>
+       <Image/>
+    </div>
   )
 }
 
