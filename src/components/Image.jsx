@@ -1,12 +1,11 @@
-import React from 'react'
-import BannerImage from '../assets/banner.png'
+import React from "react"; 
 
-const image = () => {
+const Image = ({src,alt,className}) => {
   return (
     <div>
-       <img src={BannerImage} alt="Website banner" />
+       <img className={className} src={src} alt={alt} />
     </div>
   )
 }
 
-export default image
+export default Image
