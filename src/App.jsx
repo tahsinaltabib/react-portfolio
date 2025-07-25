@@ -7,6 +7,7 @@ const App = () => {
        <Button text="Download CV"/>
        <Button text="Contact me"/>
        <Button text="Learn more"/>
+       <Button text="Learn more"/>
     </div>
   )
 }
